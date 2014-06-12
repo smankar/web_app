@@ -1,13 +1,17 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
+<header class="navbar navbar-fixed-top navbar-default">
   <div class="navbar-inner">
     <div class="container">
-      <%= link_to "sample app", '#', id: "logo" %>
+      <%= link_to "Home", '/', id: "logo" %>
       <nav>
-        <ul class="nav pull-right">
-          <li><%= link_to "Home",    '#' %></li>
-          <li><%= link_to "Help",    '#' %></li>
-          <li><%= link_to "Sign in", '#' %></li>
+        <ul class="nav navbar-nav navbar-right">
+
+          <li><%= link_to "Uploads", "#" %></li>
+          <li><%= link_to "News", "#" %></li>
+          <li><%= link_to "About", "#" %></li>
+          <li><%= link_to "Logout", "#" %></li>
+
         </ul>
+        <span class="icon-bar"></span>
       </nav>
     </div>
   </div>

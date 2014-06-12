@@ -16,13 +16,13 @@ ActiveRecord::Schema.define(version: 20140609105513) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "users", force: true do |t|
+  create_table "uploads", force: true do |t|
     t.string   "name"
     t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
+  add_index "uploads", ["email"], name: "index_users_on_email", unique: true, using: :btree
 
 end

@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.1.1'
 
 gem 'rails', '4.0.3'
-gem 'bootstrap-sass', '2.3.2.0'
+gem 'bootstrap-sass'
 gem 'sass-rails', '4.0.1'
 gem 'sprockets', '2.11.0'
 gem 'uglifier', '2.1.1'
@@ -12,6 +12,8 @@ gem 'turbolinks', '1.1.1'
 gem 'jbuilder'
 gem 'therubyracer', platforms: :ruby
 gem 'pg'
+gem 'roo'
+gem 'rails-i18n', '~> 4.0.0'
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
