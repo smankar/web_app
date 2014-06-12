@@ -1,10 +1,7 @@
 WebApp::Application.routes.draw do
 
-
-  #get "uploads/new"
-
   resources :uploads do
-    collection { post :import }
+    collection { post :import, :as => 'pdf' }
   end
 
   root :to => 'uploads#index'

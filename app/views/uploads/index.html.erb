@@ -4,7 +4,7 @@
 <div class="starter-template">
 
 
-  <%= form_tag import_uploads_path, multipart: true do %>
+  <%= form_tag pdf_uploads_path, multipart: true do %>
       <%= file_field_tag :file, class: "btn btn-lg btn-info" %>
       <%= submit_tag "Import", class: "btn btn-lg btn-primary" %>
   <% end %>

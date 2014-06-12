@@ -13,7 +13,8 @@ gem 'jbuilder'
 gem 'therubyracer', platforms: :ruby
 gem 'pg'
 gem 'roo'
-gem 'rails-i18n', '~> 4.0.0'
+gem 'prawn', '~> 1.0.0'
+gem 'prawnto_2', :require => 'prawnto'
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
